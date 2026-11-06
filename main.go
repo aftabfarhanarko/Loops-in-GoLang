@@ -40,4 +40,13 @@ func main() {
 		fmt.Println(i)
 
 	}
+
+	for i := 1; i <= 3; i++ {
+
+        fmt.Println("Outer:", i)
+
+        for j := 1; j <= 3; j++ {
+            fmt.Println("Inner:", j)
+        }
+    }
 }
